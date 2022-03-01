@@ -1,0 +1,152 @@
+/* Estilos generales */
+
+body{
+    background: #383434;
+}
+
+
+/* Sección principal */
+.main-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 30%;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.option__container{
+    margin: 40px;
+    display: flex;
+}
+
+.option__block{
+    margin: 40px;
+    width: 50%;
+}
+
+.option__title--yellow{
+    color: #EBBE1A;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.option__title--pink{
+    color: #FC83CC;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+.option__flavor{
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+/* formulario */
+
+.form__container{
+    width: 100%;
+}
+
+form{
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+.form__title{
+    font-family: 'Poppins', sans-serif;
+    color: #09D0DF;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.form__title--2{
+    margin-top: 20px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 24px;
+    line-height: 41px;
+}
+
+.form__label{
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-size: 21px;
+    line-height: 31px;
+}
+
+.form__input::placeholder{
+    font-size: 16px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.form__input{
+    width: 100%;
+    line-height: 30px;
+    border-radius: 7px;
+}
+
+.form__input--description{
+    width: 100%;
+    line-height: 20px;
+    border-radius: 7px;
+    height: 100px;
+}
+
+.form__input--description::placeholder{
+    font-size: 16px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.form__buttons-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+
+.form__button{
+    width: 47%;
+    background-color: #EBBE1A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.form__button--a{
+    width: 47%;
+}
+
+.form__button--b{
+    width: 100%;
+    background-color: #EBBE1A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/* Efectos */
+
+.form__button:hover{
+    background-color: #FC83CC;
+}
+
+.form__button--b:hover{
+    background-color: #FC83CC;
+}

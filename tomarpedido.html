@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <LINK REL=StyleSheet HREF="/Assets/Styles/reset.css" TYPE="text/css" MEDIA=screen>
+    <LINK REL=StyleSheet HREF="/Assets/Styles/tomarpedido-styles.css" TYPE="text/css" MEDIA=screen>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400&family=Roboto:wght@300;400;700&family=Satisfy&display=swap" rel="stylesheet">
+    <title>Tomamos tu pedido</title>
+</head>
+<body>
+    <section class="main-container">
+        <aside class="sidebar">
+            <img src="/Assets/Img/Sidebar.png" alt="pirata_secret_recipe">
+        </aside>
+        <div class="hero">
+            <div class="option__container">
+                <div class="option__block">
+                    <h3 class="option__title--yellow">Sabores</h3>
+                    <p class="option__flavor">Chocolate..........$127</p>
+                    <p class="option__flavor">3 Leches...........$129</p>
+                    <p class="option__flavor">Pay de queso.......$142</p>
+                    <p class="option__flavor">Naranja............$114</p>
+                    <p class="option__flavor">panque.............$99</p>
+                </div>
+        
+                <div class="option__block">
+                    <h3 class="option__title--pink">Adornos</h3>
+                    <p class="option__flavor">Escultura de gato....$127</p>
+                    <p class="option__flavor">Letras................$27</p>
+                    <p class="option__flavor">Cuerno de Unicornio...$27</p>
+                    <p class="option__flavor">Decorado personalizado..$127</p>
+                </div>
+            </div>
+            <div class="form__container">
+                <form action="pedido.js">
+                    <h3 class="form__title">Ingresa tu pedido</h3>
+                    <label for="nombre" class="form__label">Nombre</label><br>
+                    <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" class="form__input"   >
+                    <br>
+                    <label for="phone" class="form__label">Teléfono</label><br>
+                    <input type="number" id="phone" name="phone" placeholder="+52 555 5555 55" class="form__input">
+                    <br>
+                    <label for="email" class="form__label">E-mail</label><br>
+                    <input type="email" id="email" name="email" placeholder="e-mail" class="form__input">
+                    <h4 class="form__title--2">Sabores</h4>
+                    <input type="checkbox" name="Chocolate" id="Chocolate" value="Chocolate" class="form__input--checkbox">
+                    <label for="Chocolate" class="form__label">Chocolate</label>
+                    <input type="checkbox" name="3_leches" id="3_leches" value="3_leches" class="form__input--checkbox">
+                    <label for="3_leches" class="form__label">3 Leches</label>
+                    <input type="checkbox" name="Panque" id="Panque" value="Panque" class="form__input--checkbox">
+                    <label for="Panque" class="form__label">Panque</label>
+                    <br>
+                    <input type="checkbox" name="Pay_de_queso" id="Pay_de_queso" value="Pay_de_queso" class="form__input--checkbox">
+                    <label for="Pay_de_queso" class="form__label">Pay de queso</label>
+                    <input type="checkbox" name="Naranja" id="Naranja" value="Naranja" class="form__input--checkbox">
+                    <label for="Naranja" class="form__label">Naranja</label>
+                    <br>
+                    <h4 class="form__title--2">Adornos</h4>
+                    <input type="checkbox" name="Escultura" id="Escultura" value="Escultura" class="form__input--checkbox">
+                    <label for="Escultura" class="form__label">Escultura</label>
+                    <input type="checkbox" name="Letras" id="Letras" value="Letras" class="form__input--checkbox">
+                    <label for="Letras" class="form__label">Letras</label>
+                    <input type="checkbox" name="Unicornio" id="Unicornio" value="Unicornio" class="form__input--checkbox">
+                    <label for="Unicornio" class="form__label">Unicornio</label>
+    
+                    <br>
+                    <input type="checkbox" name="Personalizado" id="Personalizado" value="Personalizado" class="form__input--checkbox">
+                    <label for="Personalizado" class="form__label">Personalizado - Combine todo lo que desee</label>
+                    <br>
+                    <input type="text" id="descripcion" name="descripcion" placeholder="Describa su pastel :D" class="form__input--description">
+                    <div class="form__buttons-container">
+                        <input type="reset" value="Reset" class="form__button">
+                        <a href="/alacena.html" class="form__button--a">
+                            <input type="button" value="Enviar" class="form__button--b">
+                        </a>
+                    </div>
+                    
+                </form>
+    
+            </div>
+        </div>
+    </section>
+</body>
+</html>
