@@ -364,3 +364,30 @@
     border-radius: 7px;
     font-family: 'Cabin', sans-serif;
 }
+
+
+/* mediaquerys */
+
+@media (max-width: 600px) {
+    .navbar{
+        height: auto;
+        background-image: none;
+        background-color: white;
+        padding: 0 10px 0 10px;
+    } 
+    
+    .navbar__menu{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        background-image: url("../Img/navbar-mobile.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .navbar__button--pink{
+        margin-right: 10px;
+    }
+    .navbar__button--yellow{
+        width: auto;
+    }
+  }
