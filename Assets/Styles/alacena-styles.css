@@ -6,7 +6,7 @@
 
 .navbar__menu{
     height: 154px;
-    background-image: url("/Assets/Img/Navbar.png");
+    background-image: url("Assets/Img/Navbar.png");
     width: 100%;
 } 
 
