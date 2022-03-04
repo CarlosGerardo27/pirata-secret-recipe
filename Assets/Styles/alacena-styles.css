@@ -40,6 +40,14 @@
     cursor: pointer;
 }
 
+/* efectos */
+
+.button__hover:hover{
+    background-color: black;
+    opacity: 1;
+    color: white;
+    transition: 0.4s;
+}
 
 /* Tablas */
 
